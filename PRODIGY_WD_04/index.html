@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="circlr1.webp" type="image/x-icon">
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div class="container">
+      <div class="nav">
+        <div class="nav-left">
+          <img src="photo.jpg" class="image">
+          <div class="logotext">Portfolio</div>
+          <!-- <span>portfolio</span> -->
+        </div>
+
+        <div class="nav-right">
+          <div><a href="#about">About</a></div>
+          <div><a href="#skills">Skills</a></div>
+          <div><a href="#projects">Projects</a></div>
+          <div><a href="#contactme">Contact Me</a></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-section">
+      <div class="hero-left">
+        <div class="text1">Hey, I am <br> Ansh Raghuwanshi</div><br>
+        <div class="text2">I am a <span class="role"></span></div><br>
+        <div class="text3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis architecto hic enim
+          quis odit eum quisquam asperiores reprehenderit ipsa odio, autem</div>
+        <br>
+        <div><button class="button-pink" id="button">Hire me</button></div>
+      </div>
+      <div class="hero-right">
+        <img src="photo.jpg" class="img">
+      </div>
+    </div>
+    <h1 id="skills">Skills</h1><br>
+   
+
+    <p class="p">Here are some of my skills</p>
+    </br>
+    <div id="Skill">
+
+      <div class="change1">
+
+        <div class="front">
+          <h2 id="text">Frontend</h2>
+          <div class="front-img">
+            <div> <img src="html.logo.avif" class="kkkkk">Html</div>
+            <div><img src="css.jpeg" class="kkkkk">Css</div>
+            <div><img src="javascript_logo.png" class="kkkkk">Javascript</div>
+            <div><img src="react.logo.jpeg" class="kkkkk">React.js</div>
+          </div>
+        </div>
+
+        <div class="back">
+          <h2 id="text2">Backend</h2>
+          <div class="back-img">
+            <div> <img src="MongoDB-sm-logo.gif" class="bb">Mongo DB </div>
+            <div> <img src="microservice-icon-21.png" class="bb">Microservices </div>
+            <div><img src="Spring_Framework_logo_01.png" class="bb">Spring Framework </div>
+            <div><img src="mysql.jpeg" class="bb">Mysql </div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="change">
+
+        <div class="program">
+          <h2 id="text3">Programming</h2>
+          <div class="program-img">
+            <div> <img src="java.png" class="kk">java</div>
+            <div><img src="python.jpeg" class="kk">python</div>
+            <div> <img src="c.jpg" class="kk">C</div>
+            <div><img src="c++.png" class="kk">C++</div>
+
+
+          </div>
+        </div>
+        <div class="other">
+          <h2 id="text4">Others</h2>
+          <div class="other-img">
+            <div> <img src="github_PNG28.png" class="k">github</div>
+            <div><img src="git-icon-logo-png-transparent.png" class="k">git</div>
+            <div><img src="intell.png" class="kk">intell</div>
+            <div><img src="vs.png" class="kk">vs.code</div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+    </div>
+
+    <div class="d">
+
+      <div class="contact" id="contactme">Contact ME</div>
+      <div class="div">Feel free to contact me for any question and oppurtunities</div>
+        <form class="form1">
+          <div class="email" id="ema">Email Me</div>
+         <div class="inputbox"> <input type="email" placeholder="  Your  Email" class="a"></div>
+         <div class="inputbox"> <input  type="text" placeholder="  Your  Name" class="b"></div>
+         <div class="inputbox"><input  type="text"placeholder="  Subject" class="c"></div> 
+          <div class="inputbox"><input id="message"  type="text" placeholder=" Message" class="e"></div>
+          <div>
+            <button id="aa">Send</button>
+          </div>
+        </form>
+    </div>
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+  <script>
+    var typeData = new Typed(".role", {
+      strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+  </script>
+  <style type="text/css" data-typed-js-css="true">
+    .typed-cursor {
+      opacity: 1;
+    }
+
+    .typed-cursor.typed-cursor--blink {
+      animation: typedjsBlink 0.7s infinite;
+      -webkit-animation: typedjsBlink 0.7s infinite;
+      animation: typedjsBlink 0.7s infinite;
+    }
+
+    @keyframes typedjsBlink {
+      50% {
+        opacity: 0.0;
+      }
+    }
+
+    @-webkit-keyframes typedjsBlink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0.0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</body>
+
+</html>

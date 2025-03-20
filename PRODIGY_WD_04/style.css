@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+#wrapper{
+    width: 100vw;
+    height: 100vw;
+    background-color: #181a1d;
+    overflow-x: hidden;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 2.3rem;
+}
+.image{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.nav-left{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.nav-right{
+    display: flex;
+    gap: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.logotext{
+    font-size: 2rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-right div a {
+    color: white;
+}
+
+.nav-right div a:hover{
+    color: rgb(133,76,230)
+}
+
+.img{
+    width: 350px;
+    height: 350px;
+    border-radius: 1.5rem;
+}
+
+.hero-section{
+    display: flex;
+    /* margin-top: 5rem; */
+    width: 1200px;
+    margin: 5rem auto;
+    gap: 3rem;
+}
+
+.hero-left div {
+   color: wheat;
+}
+
+.text1{
+    font-size: 3.5rem;
+}
+
+.text2{
+    font-size: 2.5rem;
+    /* margin-bottom: 1rem; */
+}
+.text3{
+    font-size: 1.2rem;
+}
+.button-pink{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 2rem;
+ border-radius: 1rem;
+padding: 0.5rem 4rem;
+background-image: linear-gradient(to right,violet,pink);
+perspective: 10px;
+
+}
+
+.button-pink:hover{
+    
+    perspective: 1px;
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 1rem red;
+    border: 0.2rem solid green;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+p{
+    color: antiquewhite;
+    text-align: center;
+}
+.fb{
+    display: flex;
+    gap:30rem;
+    justify-content:space-around;
+  
+}
+.p{
+    font-size: 2rem;
+}
+#Skill{
+    width: 1000px;
+     /* background-color: aqua;  */
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    margin-top: 3rem;
+    flex-wrap:wrap;
+
+  
+     
+}
+.front{
+    width: 500px;
+    height: 300px;
+    border: 1px solid violet;
+    padding: 0 2rem 1rem 2rem;   
+}
+#text{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    color:white;
+}
+
+.front-img{
+    display: flex;
+   
+    /* justify-content: center;
+    align-items: center;
+    flex-direction:row; 
+    */
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    gap: 1.5rem;
+    /* padding:  0 0.5rem 0 0.5rem; */
+    text-align: center;
+    color: white;
+}
+
+.kkkkk{
+    height: 60px;
+    width: 60px;
+    
+
+}
+.bb{
+    height: 60px;
+    width: 60px;
+}
+
+/* .back{
+    border: 1px solid violet;
+    height: 300px;
+    width: 480px;
+    padding: 0 2rem 1rem 1.5rem;
+} */
+
+#text2{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    color:white;
+}
+
+.back-img{
+    display: flex;
+   
+    /* justify-content: center;
+    align-items: center;
+    flex-direction:row; 
+    */
+    margin-top: 3rem;
+    margin-left: 3.5rem;
+    margin-right: 2.9rem;
+    gap: 2rem;
+    /* padding:  0 0.5rem 0 0.5rem; */
+    text-align: center;
+    color: white;
+}
+.kk{
+    height: 60px;
+    width: 60px;
+}
+.k{
+    height: 60px;
+    width: 60px;
+}
+.program{
+    width: 500px;
+    height: 300px;
+    border: 1px solid violet;
+    padding: 0 2rem 1rem 2rem;   
+}
+#text3{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    color:white;
+}
+
+.program-img{
+    display: flex;
+   
+    /* justify-content: center;
+    align-items: center;
+    flex-direction:row; 
+    */
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    gap: 1.5rem;
+    /* padding:  0 0.5rem 0 0.5rem; */
+    text-align: center;
+    color: white;
+}
+.other{
+    width: 500px;
+    height: 300px;
+    border: 1px solid violet;
+    padding: 0 2rem 1rem 2rem;   
+   
+}
+#text4{
+    font-size: 2rem;
+    margin-top: 2.5rem;
+    text-align: center;
+    color:white;
+}
+
+.other-img{
+    display: flex;
+   
+    /* justify-content: center;
+    align-items: center;
+    flex-direction:row; 
+    */
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    gap: 1.5rem;
+    /* padding:  0 0.5rem 0 0.5rem; */
+    text-align: center;
+    color: white;
+}
+
+.change{
+    display: flex;
+    gap: 15px;
+}
+
+.back{
+    height: 300px;
+    width: 500px;
+    border: 1px solid violet;
+    /* padding: 0 2rem 1rem 2rem;    */
+}
+
+.change1{
+    display: flex;
+    gap: 15px;
+}
+
+.d{
+    width: 1000px;
+    height: 700px;
+    /* border:  0.1px solid violet; */
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 33, 16);
+}
+
+.form1{
+     width: 400px;
+     height:602px ;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+    
+    
+}
+.a{
+    width: 380px;
+    height: 40px;
+    border-radius: 0.5rem;
+    /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%); */
+    
+}
+.b{
+    width: 380px;
+    height: 40px;
+    border-radius: 0.5rem;
+}
+.c{
+    width: 380px;
+    height: 40px;
+    border-radius: 0.5rem;
+}
+.e{
+    width: 380px;
+    height: 200px;
+    border-radius: 0.5rem;
+    
+}
+.email{
+    font-size:  2.2rem;
+    color: wheat;
+    text-align: start;
+    margin-top:1.3rem;
+    margin-right:14rem;
+}
+#aa{
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 2rem;
+ border-radius: 1rem;
+padding: 0.5rem 4rem;
+background-image: linear-gradient(to right,violet,pink);
+perspective: 10px;
+text-align: center;
+}
+.inputbox input{
+    padding:1rem;
+    color: aqua;
+    background-color: rgb(13, 18, 18);
+    
+}
+#message{
+    padding-bottom: 10rem;
+}
+.contact{
+    font-size: 3.5rem;
+    padding: 1rem;
+}
+.div{
+    margin-top: -1rem;
+    font-size: 1.2rem;
+    font: bold;
+    font-weight: 1000;
+}
+l
+html{
+    scroll-behavior: smooth;
+}
