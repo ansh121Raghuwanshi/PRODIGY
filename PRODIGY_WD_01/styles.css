@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #1e90ff, #00bfff); /* Blue gradient */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    transition: background 0.3s;
+    z-index: 1000;
+}
+
+.fixed-nav.scrolled {
+    background: linear-gradient(to right, #00bfff, #1e90ff); /* Reverse gradient on scroll */
+}
+
+.fixed-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.fixed-nav ul li {
+    margin: 0 15px;
+}
+
+.fixed-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.fixed-nav ul li a:hover {
+    color: #ffdd57; /* Highlight color on hover */
+}
+
+main {
+    padding-top: 60px; /* To avoid overlap with fixed menu */
+}
+
+section {
+    height: 100vh; /* Full viewport height for each section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-bottom: 1px solid #ccc;
+}
+
